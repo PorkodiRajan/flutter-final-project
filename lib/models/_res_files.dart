@@ -8,7 +8,7 @@ class Res {
   static const String asus = "assets/images/asus.png";
   static const String toshiba = "assets/images/toshiba.png";
   static const String apple = "assets/images/apple.png";
-
+  static const String dell = "assets/images/dell.png";
   static List<Product> fetchProducts() {
     List<Product> productList = [];
     productList.add(Product(
@@ -61,6 +61,16 @@ class Res {
         size: "512 GB Memory",
         tag: "apple",
         title: "Apple"));
+    productList.add(Product(
+        color: Colors.red,
+        count: "15",
+        description: "Dell Latitude 7000 7420 Laptop (2021) | 14 FHD Touch | Core i7-512GB SSD - 16GB RAM | 4 Cores @ 4.4 GHz - 11th Gen CPU Win 10 Pro",
+        image: Res.dell,
+        info: "Dell",
+        price: "999",
+        size: "512 GB Memory",
+        tag: "dell",
+        title: "Dell"));
     return productList;
   }
 

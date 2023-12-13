@@ -6,8 +6,8 @@ Row buildActionBar() {
   return Row(
     children: [
       const Text(
-        'Laptops',
-        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+        'Canada Computers',
+        style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
       ),
       const Spacer(),
       GestureDetector(
